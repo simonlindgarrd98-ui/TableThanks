@@ -1,0 +1,36 @@
+# --- Restaurant ---
+RESTAURANT_NAME="Your Restaurant"
+MANAGER_NAME="Maria"
+RESTAURANT_PHONE=+15551234567
+REVIEW_LINK=https://g.page/r/YOUR_GOOGLE_REVIEW_LINK/review
+RESTAURANT_TZ=America/Chicago
+DEFAULT_COUNTRY_CODE=+1
+
+# --- Timing ---
+SEND_DELAY_HOURS=2
+QUIET_START_HOUR=0
+QUIET_END_HOUR=8
+MAX_LATE_HOURS=24
+FOLLOWUP_DELAY_DAYS=2
+# Only set true if your channel reports real read receipts (iMessage/RCS/WhatsApp).
+# With plain SMS leave false: no follow-ups are ever sent.
+READ_RECEIPTS=false
+
+# --- Security ---
+WEBHOOK_SECRET=change-me-long-random-string
+PUBLIC_URL=https://your-app.example.com
+
+# --- Twilio ---
+TWILIO_ACCOUNT_SID=
+TWILIO_AUTH_TOKEN=
+TWILIO_FROM=+15557654321
+TWILIO_VALIDATE=true
+
+# --- Claude ---
+ANTHROPIC_API_KEY=
+CLAUDE_MODEL=claude-sonnet-5-5
+
+# --- Team alerts (use one or both) ---
+SLACK_WEBHOOK_URL=
+MANAGER_PHONE=
+DB_PATH=agent.db
